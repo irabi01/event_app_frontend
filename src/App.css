@@ -1,32 +1,318 @@
-.App {
+
+.App{
+  width: 50%;
+  margin: 0px auto;
+}
+.all_contents{
+  margin: 100px auto;
+}
+/*============================ navigation style ==========================================*/
+.navigation_header{
+  margin-bottom: 50px; 
+}
+.navigation{
+  background-color: #7ab7f3;
+  border: 1px solid #f4f4f4;
+  border: none;
+}
+.navigation a.logo{
+  color: #fff;
+  font-family: cursive
+}
+#navbarSupportedContent ul li a{
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#navbarSupportedContent ul li.dropdown .dropdown-menu a{
+  color: #fff;
+}
+#navbarSupportedContent ul input.search_form{
+  width: 500px;
+  height: 25px;
+  margin-top: 5px;
+  padding-left: 10px;
+  margin-right: 350px;
+  border-radius: 20px;
+  border: 1px solid #f4f4f4;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 12px;
+}
+
+#cpBtn{
+  padding: 2px 5px;
+}
+#cpBtn > div{
+  width: 20px;
+  height: 4px;
+  background: #fff;;
+  margin: 3px 0px;
+  border-radius: 4px;
+}
+/* .after_navigation{
+  background-color: #3399ff;
+  color: #fff;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+} */
+
+/* .after_navigation form input.search_form{
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+} */
+
+
+
+
+
+/*==================================== header one style ===================================*/
+.headerContainter{
+  
+
+}
+/*=============================== header two style =====================================*/
+
+.headerTwoContainer{
+  background-color: #f4f4f4;
+  padding: 10px 0px;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+.headerTwoContainer h1{
+  font-size: 15px;
+  font-weight: 700;
+}
+.headerTwoContainer h2{
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/*=============================== right section style ===================================*/
+.Right_side_container{
+  background-color: #f4f4f4;
+  padding: 10px 0px;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+.Right_side_container h2{
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.right_sticky, .left_sticky{
+  padding-top: 200px;
+  top: 20px;
+  position: sticky;
+  -webkit-position:sticky;
+  display: flex;
+}
+.Advertisement_side_container{
+  background-color: #f4f4f4;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px 0px;
+  /* border-left: 5px solid #3399ff; */
+}
+.Advertisement_side_container h2{
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.Advertisement_side_container p{
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+}
+.Advertisement_side_container .advertisement_side #carouselExampleSlidesOnly img{
+  border-radius: 5px;
+}
+.Advertisement_side_container .advertisement_side .footer_section{
+  margin-top: 20px;
+  font-size: 12px;
+}
+.Advertisement_side_container .advertisement_side .footer_section .link{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000;
+}
+/*=============================== left section style =====================================*/
+.Left_side_container{
+  background-color: #f4f4f4;
+  padding: 10px 0px;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+.Left_side_container h2{
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/*=============================== days of the week ======================================*/
+.outer_container_days{
+  background-color: #f4f4f4;
+  padding: 10px 0px;
+  color: #000;
+  border-radius: 5px;
+  margin: 5px 0px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 12px;
+}
+.outer_container_days h1{
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+}
+
+
+/*=============================== event list style =======================================*/
+.center_list{
+  
+}
+.eventlist{
+  background-color: #f4f4f4;
+  padding-left: 50px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #ccc;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 10px 0px;
+  font-family: cursive;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 2px solid #3399ff;
+}
+.eventlist .all_list_container{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+}
+.eventlist .all_list_container:hover{
+  background-color: #f4f4f4;
+}
+.eventlist .all_list_container .love_and_share{
+  padding-top: 10px;
+}
+.eventlist .all_list_container img{
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-top-right-radius: 5px;
+  margin: 0px 0px;
+}
+.eventlist .all_list_container p{
+  padding: 0px 10px;
+  text-align: justify;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: initial;
+}
+.eventlist .all_list_container p a.btn_view_more{
+  border: none;
+  background-color: #7ab7f3;
+  color: #fff;
+  font-weight: 700;
+  text-transform: initial;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.eventlist .all_list_container hr{
+  width: 97%;
+}
+
+/*===================================== login page style =============================*/
+.login_container{
+  background-image: -moz-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/image1.jpg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/image1.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/image1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 50px;
+}
+.card_style{
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+.card_style h1{
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 30px 0px;
+}
+.card_style h2{
+  text-align: justify;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: initial;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.card_style p{
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.card_style p .forgot_password{
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+.card_style p .forgot_password:hover{
+  color: #000;
+}
+.card_style form input[type = "email"]{
+  height: 45px;
+}
+.card_style form input[type = "password"]{
+  height: 45px;
+}
+.card_style button{
+  width: 100px;
+  height: 40px;
+  background-color: #7ab7f3;
+  border: none;
+}
+.card_style .copyright_container{
+  /* background-color: #7ab7f3; */
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*====================================== error page style ============================*/
+.error_container{
+  padding-top: 200px;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error_container .return_home{
+  margin-top: 50px;
+  background-color: #7ab7f3;
+  width: 20%;
+  height: 45px;
+  padding-top: 10px;
+  color: #fff;
+  font-weight: 700;
 }
