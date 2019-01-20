@@ -33,7 +33,7 @@ class Navigation extends Component {
                 
                 <ul class="navbar-nav ml-auto">
                 <li>
-                    <input type="text" placeholder="Search by event name or location here" className="search_form form-control"/>
+                    <input type="text" placeholder="Search by event title or location here" className="search_form form-control"/>
                 </li>
                 <li class="nav-item">
                     <Link class="nav-link" to="/account/login" tabindex="-1" aria-disabled="true">Sign in</Link>
