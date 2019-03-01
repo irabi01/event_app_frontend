@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SearchEvent from './searchevent';
 
 class DaysOfTheWeek extends Component {
   render() {
@@ -43,7 +44,8 @@ class DaysOfTheWeek extends Component {
                         <input type="checkbox" className="custom-control-input" id="customCheck7"/>
                         <label className="custom-control-label" for="customCheck7">Sunday</label>
                     </div>
-                    
+                    <hr/>
+                    <SearchEvent/>    
                 </div>
             </div>
         </div>

@@ -6,37 +6,34 @@ class Navigation extends Component {
     return (
       <div className="navigation_header">
         <nav class="navbar navbar-expand-lg fixed-top navigation" id="my_navbar">
-            <Link class="navbar-brand logo" to="/">{this.props.title}</Link>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="cpBtn">
+            <Link className="navbar-brand logo" to="/">{this.props.title}</Link>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="cpBtn">
                   <div></div>
                   <div></div>
                   <div></div>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <Link class="nav-link" to="/">Home</Link>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav mr-auto">
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/">Home</Link>
                     </li>
-                    <li class="nav-item dropdown">
-                    <Link class="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li className="nav-item dropdown">
+                    <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Category
                     </Link>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <Link class="dropdown-item" to="#">Action</Link>
-                    <div class="dropdown-divider"></div>
-                    <Link class="dropdown-item" to="#">Another action</Link>
-                    <div class="dropdown-divider"></div>
-                    <Link class="dropdown-item" to="#">Something else here</Link>
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <Link className="dropdown-item" to="#">Action</Link>
+                    <div className="dropdown-divider"></div>
+                    <Link className="dropdown-item" to="#">Another action</Link>
+                    <div className="dropdown-divider"></div>
+                    <Link className="dropdown-item" to="#">Something else here</Link>
                     </div>
                 </li>
                 </ul>
                 
                 <ul class="navbar-nav ml-auto">
-                <li>
-                    <input type="text" placeholder="Search by event title or location here" className="search_form form-control"/>
-                </li>
                 <li class="nav-item">
-                    <Link class="nav-link" to="/account/login" tabindex="-1" aria-disabled="true">Sign in</Link>
+                    <Link class="nav-link" to="/login" tabindex="-1" aria-disabled="true">Sign in</Link>
                 </li>
                 </ul>
             </div>

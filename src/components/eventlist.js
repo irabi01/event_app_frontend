@@ -26,14 +26,14 @@ class EventList extends Component {
                     <hr/>
                     <div className="row">
                         <div className="col-md-6">
-                            <i className="fa fa-map-marker"></i> {this.props.listevent.lacation}
+                            <i className="fa fa-map-marker"></i> {this.props.listevent.location}
                         </div>
                         <div className="col-md-6">
                             <i className="fa fa-tags"></i> {this.props.listevent.entraceFee}/= Tshs
                         </div>
                     </div>
                     <hr/>
-                    <p><strong>Description:</strong> {this.props.listevent.paragraph} <br/><Link to="#" className="btn btn-sm btn_view_more">Read more</Link></p>
+                    <p><strong>Description:</strong> {this.props.listevent.paragraph} <br/><Link to={`/event-details/${this.props.listevent.id}`} className="btn btn-sm btn_view_more">Read more</Link></p>
                 </div>
             </div>   
     )

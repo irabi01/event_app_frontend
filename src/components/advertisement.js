@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
+import Footer from './footer';
 
 function Advertisement(){
     return(
@@ -27,14 +28,7 @@ function Advertisement(){
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12">
-                        <div className="footer_section">
-                            <Link to="/about" className="link">About</Link> | <Link to="/contact" className="link">Contact</Link> | <Link to="#" className="link">Privacy policy</Link>
-                            <div className="copyright_container">
-                                <p><i className="fa fa-copyright"></i> {(new Date().getFullYear())} Bongo Event. All right reserved</p>
-                            </div>
-                        </div>
-                    </div>
+                    <Footer/>
                 </div>
               </div>
             </div>
